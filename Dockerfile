@@ -1,4 +1,4 @@
-FROM php:7.3.4alpine3.9
+FROM php:7.3.4
 MAINTAINER Stephan Krauss <info@stephankrauss.de>
 
 #install laravel requirements and aditional extensions

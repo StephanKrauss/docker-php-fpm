@@ -1,5 +1,5 @@
 # PHP-FPM docker image with composer
-
+# Forke, Original by camilb/docker-php-fpm
 
 ```ready for laravel and cakePHP frameworks ```
 
@@ -18,13 +18,13 @@ ImageLayers : [![](https://badge.imagelayers.io/camil/php-fpm:latest.svg)](https
 
 For example, if you need to install or remove php extensions, edit the Dockerfile and than build-it.
 
-	git clone git@github.com:camilb/docker-php-fpm.git
+	git clone git@github.com:StephanKrauss/docker-php-fpm.git
 	cd ./docker-php-fpm
 	docker build --rm -t camil/php-fpm .
 
 ## Usage
 
 	docker pull camil/php-fpm
-	docker run --rm -d camil/php-fpm
+	docker run --rm -d stephanKrauss/php-fpm
 
 

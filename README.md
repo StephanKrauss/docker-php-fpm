@@ -25,7 +25,6 @@ For example, if you need to install or remove php extensions, edit the Dockerfil
 
 ## Usage
 
-	docker pull stephanKrauss/php-fpm
-	docker run --rm -d stephanKrauss/php-fpm
-
+	docker pull camil/php-fpm
+	docker run --rm -d camil/php-fpm
 

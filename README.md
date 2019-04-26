@@ -1,5 +1,6 @@
 # PHP-FPM docker image with composer
 # Fork !!! Original by camilb/docker-php-fpm
+# Only a test
 
 ```ready for laravel and cakePHP frameworks ```
 

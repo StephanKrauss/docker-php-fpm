@@ -1,5 +1,5 @@
-FROM php:5.6-fpm
-MAINTAINER Camil Blanaru <camil@edka.io>
+FROM php:7.3.4alpine3.9
+MAINTAINER Stephan Krauss <info@stephankrauss.de>
 
 #install laravel requirements and aditional extensions
 RUN requirements="libmcrypt-dev g++ libicu-dev libmcrypt4 libicu52 zlib1g-dev git" \
